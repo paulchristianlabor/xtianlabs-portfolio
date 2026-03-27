@@ -1,0 +1,14 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alpine lake</title>
+  <desc id="desc">A stylized alpine lake with mountain silhouettes and mirrored water.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ecae1"/>
+      <stop offset="100%" stop-color="#e4f1f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <path d="M0 300 L150 170 L280 290 L410 160 L540 280 L700 150 L800 260 L800 520 L0 520 Z" fill="#3a6f7f"/>
+  <path d="M0 320 L800 330 L800 520 L0 520 Z" fill="#7bb2c9"/>
+  <path d="M0 350 L800 360 L800 520 L0 520 Z" fill="#4a93ac" opacity="0.5"/>
+</svg>

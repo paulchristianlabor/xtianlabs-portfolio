@@ -1,0 +1,13 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Forest trail</title>
+  <desc id="desc">A tree-lined path in a green forest.</desc>
+  <rect width="800" height="520" fill="#9ac7b0"/>
+  <rect y="340" width="800" height="180" fill="#5c8b68"/>
+  <path d="M320 520 L390 320 L450 320 L530 520 Z" fill="#ccab7b"/>
+  <path d="M250 520 L330 320 L380 320 L450 520 Z" fill="#d9b98a"/>
+  <circle cx="120" cy="210" r="95" fill="#4a7d57"/>
+  <circle cx="260" cy="180" r="90" fill="#3f6d4b"/>
+  <circle cx="430" cy="170" r="88" fill="#457552"/>
+  <circle cx="620" cy="190" r="92" fill="#3b6848"/>
+  <circle cx="760" cy="220" r="88" fill="#4b8058"/>
+</svg>

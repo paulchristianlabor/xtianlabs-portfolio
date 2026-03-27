@@ -1,0 +1,9 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Desert dunes</title>
+  <desc id="desc">Warm layered dunes under a pale sky.</desc>
+  <rect width="800" height="520" fill="#f4d9a8"/>
+  <circle cx="680" cy="120" r="50" fill="#ffd58a"/>
+  <path d="M0 300 C130 260 220 220 340 250 C470 280 560 350 800 300 L800 520 L0 520 Z" fill="#d79c53"/>
+  <path d="M0 350 C150 290 300 320 420 350 C580 390 700 370 800 350 L800 520 L0 520 Z" fill="#c57d37"/>
+  <path d="M0 410 C130 370 270 390 390 420 C540 455 660 445 800 410 L800 520 L0 520 Z" fill="#9f622b"/>
+</svg>

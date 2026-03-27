@@ -1,0 +1,12 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Coastal town</title>
+  <desc id="desc">Colorful buildings near a calm sea.</desc>
+  <rect width="800" height="520" fill="#b8dbf1"/>
+  <rect y="320" width="800" height="200" fill="#5ea8c7"/>
+  <rect x="90" y="220" width="110" height="110" fill="#e67d4f"/>
+  <rect x="215" y="200" width="120" height="130" fill="#f2c35f"/>
+  <rect x="350" y="230" width="110" height="100" fill="#d95f5f"/>
+  <rect x="475" y="210" width="120" height="120" fill="#6fbf8f"/>
+  <rect x="610" y="240" width="100" height="90" fill="#ef9fa5"/>
+  <path d="M0 360 Q160 340 320 360 T640 360 T800 360" stroke="#d8f0f9" stroke-width="8" fill="none"/>
+</svg>

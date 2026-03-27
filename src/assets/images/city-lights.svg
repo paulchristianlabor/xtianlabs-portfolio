@@ -1,0 +1,20 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">City lights</title>
+  <desc id="desc">A stylized evening skyline with glowing windows.</desc>
+  <rect width="800" height="520" fill="#17263a"/>
+  <rect y="350" width="800" height="170" fill="#0f1b2e"/>
+  <rect x="80" y="220" width="70" height="130" fill="#243a57"/>
+  <rect x="170" y="170" width="80" height="180" fill="#2b4566"/>
+  <rect x="280" y="200" width="75" height="150" fill="#36557c"/>
+  <rect x="380" y="140" width="95" height="210" fill="#2a3e5e"/>
+  <rect x="500" y="210" width="80" height="140" fill="#31507a"/>
+  <rect x="600" y="180" width="100" height="170" fill="#27415f"/>
+  <g fill="#ffd988">
+    <rect x="100" y="240" width="10" height="10"/>
+    <rect x="200" y="200" width="10" height="10"/>
+    <rect x="320" y="235" width="10" height="10"/>
+    <rect x="420" y="170" width="10" height="10"/>
+    <rect x="530" y="250" width="10" height="10"/>
+    <rect x="650" y="220" width="10" height="10"/>
+  </g>
+</svg>
