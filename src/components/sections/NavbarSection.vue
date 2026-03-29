@@ -11,10 +11,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: 'About', href: '#about' },
   { label: 'Destinations', href: '#destinations' },
-  { label: 'Stories', href: '#stories' },
   { label: 'Gallery', href: '#gallery' },
-  { label: 'Tips', href: '#tips' },
-  { label: 'Contact', href: '#contact' },
 ]
 
 const isMenuOpen = ref(false)
@@ -42,17 +39,20 @@ watch(
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-white/60 bg-[#f8f4ee]/90 backdrop-blur-sm">
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur-sm">
     <PageContainer>
       <div class="flex h-20 items-center justify-between gap-4">
-        <a href="#home" class="font-heading text-xl font-bold text-ink">Wander Notes</a>
+        <a href="#home" class="flex flex-col leading-none text-slate-900">
+          <span class="font-heading text-xl font-bold">Xtian Labs</span>
+          <span class="mt-1 text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-slate-500">Traveller</span>
+        </a>
 
         <nav aria-label="Primary" class="hidden items-center gap-6 text-sm font-semibold text-slate-700 md:flex">
           <a
             v-for="item in navItems"
             :key="item.href"
             :href="item.href"
-            class="transition hover:text-ocean"
+            class="transition hover:text-black"
           >
             {{ item.label }}
           </a>
@@ -60,7 +60,7 @@ watch(
 
         <button
           type="button"
-          class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 text-slate-700 transition hover:border-ocean hover:text-ocean md:hidden"
+          class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 text-slate-700 transition hover:border-black hover:text-black md:hidden"
           aria-controls="mobile-menu"
           :aria-expanded="isMenuOpen"
           :aria-label="isMenuOpen ? 'Close menu' : 'Open menu'"
@@ -83,7 +83,7 @@ watch(
           <li v-for="item in navItems" :key="item.href">
             <a
               :href="item.href"
-              class="block rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 transition hover:bg-mist hover:text-ocean"
+              class="block rounded-xl px-4 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 hover:text-black"
               @click="closeMenu"
             >
               {{ item.label }}

@@ -6,14 +6,9 @@ describe('App shell', () => {
     render(App)
 
     expect(screen.getByRole('navigation', { name: /primary/i })).toBeInTheDocument()
-    expect(
-      screen.getByRole('heading', {
-        level: 1,
-        name: /collecting calm roads, wild skies, and tiny stories in between/i,
-      }),
-    ).toBeInTheDocument()
-    expect(screen.getByRole('heading', { level: 2, name: /places worth returning to/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { level: 2, name: /short notes from the road/i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { level: 2, name: /plan a future route together/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 1, name: /traveller & explorer/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 2, name: /a minimal travel portfolio/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 2, name: /places i visited/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 2, name: /travel photos/i })).toBeInTheDocument()
   })
 })

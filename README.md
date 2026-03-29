@@ -1,10 +1,10 @@
-# Personal Travelling Website
+# Traveller Portfolio
 
-A modern, elegant, static personal travelling website built with Vue 3 and TypeScript. This project is frontend-only and intended for static deployment.
+A clean, visual-first traveller portfolio built with Vue 3 and TypeScript. This project is frontend-only and intended for static deployment.
 
 ## Purpose
 
-This site template showcases travel content sections such as destinations, stories, gallery highlights, practical tips, and a contact area, all with accessible and responsive layout patterns.
+This site focuses on four sections only: Hero, About, Destinations, and Gallery. The experience is designed to be minimal, fast to scan, and image-led.
 
 ## Tech Stack
 
@@ -21,10 +21,10 @@ This site template showcases travel content sections such as destinations, stori
 ## Features
 
 - Responsive navigation with mobile toggle
-- Hero, About, Destinations, Stories, Gallery, Tips, Contact, and Footer sections
+- Hero, About, Destinations, Gallery, and Footer sections
 - Modular and reusable section architecture
 - Reusable UI primitives (buttons, cards, badges, section wrappers)
-- Accessible form labels, landmarks, and focus states
+- Accessible landmarks, focus states, and keyboard-friendly navigation
 - Static frontend-only implementation
 
 ## Installation

@@ -11,7 +11,7 @@
 
 - ./src/components: Reusable UI and section components
 - ./src/components/ui: Shared design-system primitives
-- ./src/components/sections: Website sections (hero, gallery, contact, etc.)
+- ./src/components/sections: Website sections (hero, about, destinations, gallery, footer)
 - ./src/layouts: High-level page shell and shared layout wrappers
 - ./src/views: Composed page-level views
 - ./src/assets/images: Local image assets used by sections
@@ -25,5 +25,12 @@
 
 - Keeps sections modular and easy to test.
 - Separates visual primitives from content sections.
-- Uses typed data files so placeholder content is easy to replace.
+- Uses typed data files for quick, low-text updates.
 - Supports static deployment without backend dependencies.
+
+## Content Model
+
+- Hero: Title, short tagline, and direct CTA.
+- About: 2-3 short lines describing travel perspective.
+- Destinations: Location cards with one-line descriptions.
+- Gallery: Visual-first grid with short captions.

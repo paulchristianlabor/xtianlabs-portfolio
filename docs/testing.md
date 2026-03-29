@@ -31,7 +31,13 @@ Coverage reports are generated in ./coverage.
 
 - App shell and key section rendering.
 - Navbar mobile-menu interaction.
-- Contact section frontend-only form interaction.
+
+## Visual-First QA Checklist
+
+- Check mobile, tablet, and desktop layouts for no horizontal overflow.
+- Confirm hero, destination, and gallery images load correctly.
+- Verify spacing remains clean with no overlapping elements.
+- Validate fast scan readability: short headings and 1-2 line blocks.
 
 ## Adding More Tests
 

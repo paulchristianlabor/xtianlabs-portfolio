@@ -15,10 +15,10 @@ const props = withDefaults(defineProps<Props>(), {
 
 const classes = computed(() => {
   if (props.variant === 'ghost') {
-    return 'border-2 border-ocean bg-transparent text-ocean hover:bg-ocean hover:text-white'
+    return 'border-2 border-black bg-transparent text-black hover:bg-black hover:text-white'
   }
 
-  return 'border-2 border-clay bg-clay text-white hover:bg-amber-700 hover:border-amber-700'
+  return 'border-2 border-black bg-black text-white hover:border-slate-800 hover:bg-slate-800'
 })
 </script>
 

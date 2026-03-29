@@ -5,28 +5,28 @@ import SectionWrapper from '../ui/SectionWrapper.vue'
 <template>
   <SectionWrapper
     id="about"
-    kicker="About The Traveler"
-    title="A Curious Planner Who Loves Slow Routes"
-    description="This template highlights a travel-first personal site with content that is easy to edit and keep private. Replace the placeholder story with your own travel perspective, themes, and goals."
-    classes="border-y border-white/50 bg-white/55"
+    kicker="About"
+    title="A Minimal Travel Portfolio"
+    description="I explore places and document real experiences. Nature, culture, and quiet moments."
+    classes="border-y border-slate-200 bg-white/70"
   >
     <div class="grid gap-6 md:grid-cols-3">
-      <article class="rounded-3xl bg-sand p-6">
-        <h3 class="font-heading text-2xl text-ink">Travel Style</h3>
+      <article class="rounded-3xl border border-slate-200 bg-white p-6">
+        <h3 class="font-heading text-2xl text-slate-900">Travel Style</h3>
         <p class="mt-3 leading-relaxed text-slate-700">
-          Slow travel, walkable neighborhoods, and local mornings over crowded schedules.
+          Slow routes with visual-first storytelling.
         </p>
       </article>
-      <article class="rounded-3xl bg-sand p-6">
-        <h3 class="font-heading text-2xl text-ink">What I Collect</h3>
+      <article class="rounded-3xl border border-slate-200 bg-white p-6">
+        <h3 class="font-heading text-2xl text-slate-900">What I Share</h3>
         <p class="mt-3 leading-relaxed text-slate-700">
-          Small human stories, hidden viewpoints, and practical notes for future trips.
+          Destinations, snapshots, and short notes.
         </p>
       </article>
-      <article class="rounded-3xl bg-sand p-6">
-        <h3 class="font-heading text-2xl text-ink">Goal Of This Site</h3>
+      <article class="rounded-3xl border border-slate-200 bg-white p-6">
+        <h3 class="font-heading text-2xl text-slate-900">Goal</h3>
         <p class="mt-3 leading-relaxed text-slate-700">
-          Share memories and guidance in a clean static format, with privacy and accessibility in mind.
+          Keep each journey quick to scan and remember.
         </p>
       </article>
     </div>
