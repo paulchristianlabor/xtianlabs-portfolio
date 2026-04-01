@@ -30,42 +30,42 @@ This site focuses on four sections only: Hero, About, Destinations, and Gallery.
 ## Installation
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Development
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Linting And Formatting
 
 ```bash
-npm run lint
-npm run lint:fix
-npm run format
-npm run format:check
+pnpm run lint
+pnpm run lint:fix
+pnpm run format
+pnpm run format:check
 ```
 
 ## Testing
 
 ```bash
-npm run test
-npm run test:watch
-npm run test:coverage
+pnpm run test
+pnpm run test:watch
+pnpm run test:coverage
 ```
 
 ## Build
 
 ```bash
-npm run build
-npm run preview
+pnpm run build
+pnpm run preview
 ```
 
 ## Deployment Summary
 
-- Build static files into ./dist using npm run build.
+- Build static files into ./dist using pnpm run build.
 - Deploy the ./dist directory to any static hosting provider.
 - Keep the project frontend-only and do not commit secrets.
 

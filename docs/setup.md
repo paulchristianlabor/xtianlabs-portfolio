@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Node.js 20+
-- npm 10+
+- pnpm 10+
 
 ## Install Dependencies
 
@@ -11,7 +11,7 @@
 2. Run:
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Start Development
@@ -19,7 +19,7 @@ npm install
 Run:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 The site starts in local development mode with hot module replacement.
@@ -29,7 +29,7 @@ The site starts in local development mode with hot module replacement.
 Run:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Build output is generated in ./dist.
@@ -39,5 +39,5 @@ Build output is generated in ./dist.
 Run:
 
 ```bash
-npm run preview
+pnpm run preview
 ```

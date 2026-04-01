@@ -14,7 +14,7 @@ This project is a static frontend website and does not include backend logic, au
 
 - Install only required dependencies.
 - Review dependency updates before applying major upgrades.
-- Run npm audit regularly and evaluate findings in context.
+- Run pnpm audit regularly and evaluate findings in context.
 
 ## Path Privacy Guidance
 

@@ -10,19 +10,19 @@
 ## Run Tests
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 ## Watch Mode
 
 ```bash
-npm run test:watch
+pnpm run test:watch
 ```
 
 ## Coverage
 
 ```bash
-npm run test:coverage
+pnpm run test:coverage
 ```
 
 Coverage reports are generated in ./coverage.

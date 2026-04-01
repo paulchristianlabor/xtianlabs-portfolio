@@ -5,7 +5,7 @@
 Run:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 The static deployable files are generated in ./dist.
@@ -20,8 +20,8 @@ The static deployable files are generated in ./dist.
 
 ## Generic Deployment Steps
 
-1. Install dependencies with npm install.
-2. Build with npm run build.
+1. Install dependencies with pnpm install.
+2. Build with pnpm run build.
 3. Upload the ./dist folder to your chosen static host.
 4. Configure fallback behavior only if you add multi-route client routing later.
 
