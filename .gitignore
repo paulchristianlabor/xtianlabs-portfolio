@@ -40,3 +40,8 @@ Thumbs.db
 
 # Test snapshots
 *.snap
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
