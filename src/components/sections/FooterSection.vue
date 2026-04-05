@@ -6,7 +6,7 @@ import PageContainer from '../ui/PageContainer.vue'
   <footer class="border-t border-slate-200 bg-white py-10">
     <PageContainer>
       <div class="text-center text-sm font-medium text-slate-700">
-        Design and Built by Xtian Labs
+        Design and Built by Paul Christian Labor
       </div>
     </PageContainer>
   </footer>
